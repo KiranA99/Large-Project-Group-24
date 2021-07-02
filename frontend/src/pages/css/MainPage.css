@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #7BD6FF;
+    background: -webkit-linear-gradient(to bottom, #7BD6FF, #FFFFFF);
+    background: linear-gradient(to bottom, #7BD6FF,#FFFFFF) fixed;
+    border-radius: 18px;
+  }
+
+.lower{
+  width: 80%;
+  height: 100%;
+  background: #7BD6FF;
+  position: relative;
+  margin-left: 50px;
+  border-radius: 18px;
+}
+
+.upper{
+  width: 100%;
+  height: 100px;
+  background: #C3F1EE;
+  border-radius: 18px 18px 0px 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.inside{
+  position: absolute;
+}
+
+.left{
+  width: 15%;
+  background-color:#30bfff;
+  text-align: center;
+  border-radius: 0px 0px 0px 18px;
+}
+.right{
+  width: 15%;
+  text-align: center;
+  background-color:#30bfff;
+  border-radius: 0px 0px 18px 0px;
+}
+
+.column{
+  float: left;
+  margin-top: -22px;
+  padding: 0px;
+  height: 500px;
+  
+}
+
+.middle{
+  width: 70%;
+  background-color:white;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heart{
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 7px;
+  position: relative;
+}
+
+div.upper > img {
+  max-height: 77%;
+  max-width: 100%;
+  
+}
