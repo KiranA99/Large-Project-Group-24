@@ -15,3 +15,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  position: absolute;
+  width: 75px;
+  height: 36px;
+  
+  background: linear-gradient(180deg, #9FDEFA 24.79%, #D02929 71.15%, #D02929 89.9%);
+  border-radius: 10px;
+  font-family: Underdog;
+  color:white;
+}
