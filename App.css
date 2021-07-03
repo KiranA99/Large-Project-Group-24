@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: Spicy Rice;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  color:white;
+  text-shadow: 0px 4px 4px #FF0202;
+  
+
+}
+
+.loginbox{
+  width:768px;
+  height:465px;
+  background: #7BD6FF;
+  background: -webkit-linear-gradient(to bottom, #7BD6FF, #FFFFFF);
+  background: linear-gradient(to bottom, #7BD6FF,#FFFFFF) fixed;
+  border-radius: 18px;
+
+  padding: 2px;
+  position: absolute;
+   top: 140px;
+   left: 360px;
+   box-shadow: 1px 3px 10px black;
+   border-radius: 35px 35px 35px 35px;
+}
