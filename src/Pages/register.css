@@ -1,0 +1,63 @@
+.registerinputs{
+    text-shadow: none;
+  font: 'Ubuntu';
+  color: #FF0000;
+  text-shadow: 1px 1px 1px black; 
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    
+    background: linear-gradient(180deg, #9FDEFA 24.79%, #D02929 71.15%, #D02929 89.9%);
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    color:white;
+    font-size: 15px;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif,'Spicy Rice';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #7BD6FF;
+    background: -webkit-linear-gradient(to bottom, #7BD6FF, #FFFFFF);
+    background: linear-gradient(to bottom, #7BD6FF,#FFFFFF) fixed;
+    border-radius: 18px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .Register{
+    text-align: center;
+    font-family: Spicy Rice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+    color:white;
+    text-shadow: 0px 4px 4px #FF0202;
+  }
+
+  .Registerbox{
+    width:768px;
+    height:465px;
+    background: #7BD6FF;
+    background: -webkit-linear-gradient(to bottom, #7BD6FF, #FFFFFF);
+    background: linear-gradient(to bottom, #7BD6FF,#FFFFFF) fixed;
+    border-radius: 18px;
+  
+    padding: 2px;
+    position: absolute;
+     top: 140px;
+     left: 360px;
+     box-shadow: 1px 3px 10px black;
+     border-radius: 35px 35px 35px 35px;
+  }
